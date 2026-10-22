@@ -1,0 +1,32 @@
+.carousel-item-custom {
+    position: relative;
+    height: 500px;
+  }
+  
+  .carousel-img {
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+  
+  .carousel-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.1) 100%);
+  }
+  
+  .slide-caption {
+    left: 10% !important;
+    right: auto !important;
+    bottom: 30% !important;
+    max-width: 600px;
+  }
+  
+  .navbar-nav .nav-link.active {
+    color: #3b82f6 !important;
+    font-weight: 600;
+    border-bottom: 2px solid #3b82f6;
+  }
