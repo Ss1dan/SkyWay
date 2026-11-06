@@ -5,9 +5,9 @@ import Footer from './components/Footer';
 import Home from './pages/Home';
 import Catalog from './pages/Catalog';
 import Contacts from './pages/Contacts';
-import Login from './pages/Login';       
-import Register from './pages/Register'; 
-import './App.css';
+import Login from './pages/Login';
+import Register from './pages/Register';
+import Product from './pages/Product';
 
 function App() {
   return (
@@ -19,8 +19,10 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/catalog" element={<Catalog />} />
             <Route path="/contacts" element={<Contacts />} />
-            <Route path="/login" element={<Login />} />       
-            <Route path="/register" element={<Register />} /> 
+            <Route path="/login" element={<Login />} />
+            <Route path="/register" element={<Register />} />
+            
+            <Route path="/product/:id" element={<Product />} /> 
           </Routes>
         </main>
         <Footer />
